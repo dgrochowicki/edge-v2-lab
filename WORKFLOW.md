@@ -11,10 +11,13 @@ Always read:
 3. `TRACKER.md`
 4. `RESEARCH.md`
 5. all existing files in `/bets`
+6. recent relevant files in `/cases`
 
 The repository is the source of truth for the experiment.
 
 `RESEARCH.md` contains external models, research ideas, and possible future improvements. Treat it as additional context and independent evidence only. It does **not** modify the current experiment rules or create new selection criteria during the initial 10-bet sample.
+
+`/cases` contains detailed histories of meaningful candidates, including PASS decisions and near-miss spots. Case files are observational records and do not count toward the 10-bet experiment.
 
 Do not change the methodology because of a single result.
 
@@ -68,14 +71,6 @@ Do not manufacture a bet.
 
 If a match looks interesting, tell the user exactly which STS prices are needed.
 
-Example:
-
-> Potential spot: MOUZ–NAVI.
-> Please provide STS:
-> - ML
-> - Over 2.5 maps
-> - M2 ML
-
 Only request markets relevant to the thesis.
 
 ---
@@ -83,8 +78,6 @@ Only request markets relevant to the thesis.
 ## Pre-match re-check
 
 For relevant matches, perform a final re-check approximately **20–30 minutes before scheduled start** when practical.
-
-The purpose is to catch information that may not have been available during the morning scan.
 
 Re-check where possible:
 
@@ -129,6 +122,47 @@ A PASS does not count toward the 10-bet experiment.
 
 ---
 
+## Case logging
+
+Create a file in `/cases` when a candidate receives substantial analysis and is useful for later review, especially when:
+
+- STS odds were requested and evaluated
+- the candidate reached WATCH / near-BET status
+- veto materially changed the estimate
+- an external model or predictor was used
+- a meaningful market move occurred
+- the final decision was PASS but the reasoning may teach us something
+
+Naming convention:
+
+`cases/YYYY-MM-DD_TEAM-A_vs_TEAM-B.md`
+
+A case file should contain, where available:
+
+- date
+- event / format
+- matchup
+- initial edge hypothesis
+- evidence quality
+- relevant STS prices
+- public market context
+- pre-veto probability / fair odds
+- veto predictor output, if used
+- confirmed veto
+- post-veto probability / fair odds
+- adversarial check
+- final decision
+- result
+- post-match observation
+
+Case files are historical records.
+
+Never rewrite the original pre-match estimates after the result is known. Add post-match notes separately.
+
+A PASS case does **not** enter `TRACKER.md` and does **not** count toward #1/10–#10/10.
+
+---
+
 ## When a BET is confirmed
 
 Assign the next experiment number:
@@ -156,6 +190,8 @@ The pre-match record must contain:
 - thesis
 - main risks
 
+A confirmed BET may also have a corresponding `/cases` file if the pre-decision history is useful, but `/bets` remains the authoritative record for the experiment sample.
+
 ### Freeze the pre-match snapshot
 
 Once the bet is confirmed, the original pre-match analysis is frozen.
@@ -169,8 +205,6 @@ Never rewrite the original:
 - risks
 
 after seeing the match result or live action.
-
-Provide the completed `.md` file to the user so it can be added to the repository.
 
 ---
 
@@ -190,25 +224,34 @@ Research into dedicated live models belongs in `RESEARCH.md` and does not change
 
 ## After the match
 
-Add a separate post-match section containing:
+### Confirmed BET
 
-- result
-- closing odds, if available
-- CLV, if available
-- P/L
-- short post-match evaluation
+For a confirmed BET:
 
-Evaluate the quality of the original decision independently from whether the bet won or lost.
+- add result
+- add closing odds, if available
+- add CLV, if available
+- add P/L
+- add a short post-match evaluation
+- update `TRACKER.md`
+
+### Logged PASS case
+
+For a logged PASS case:
+
+- keep the original pre-match analysis frozen
+- append the actual result
+- add a short post-match observation
+- assess reasoning independently of whether the PASS would have won or lost
+- do not add it to `TRACKER.md`
 
 A winning bet can be a bad decision.
 
 A losing bet can be a good decision.
 
+A PASS that would have won is not automatically a mistake.
+
 Do not create a new methodology rule from one match.
-
-Update `TRACKER.md`.
-
-Provide the updated bet file and tracker to the user so they can be added to the repository.
 
 ---
 
@@ -248,6 +291,7 @@ Review:
 - repeated analytical errors
 - good results produced by weak reasoning
 - bad results produced by sound reasoning
+- relevant near-miss PASS cases from `/cases`
 - research ideas collected in `RESEARCH.md`
 
 Only after the complete review should changes to the methodology be proposed.
