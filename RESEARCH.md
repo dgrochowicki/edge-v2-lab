@@ -406,3 +406,7 @@ This case demonstrates several useful process behaviours:
 5. A late PASS after a strong WATCH phase is a successful process outcome, not a missed bet.
 
 No methodology rule is changed by this observation.
+
+### Post-match outcome
+
+UPGRADE won 2:1 (13:5 Ancient, 13:16 Nuke, 13:4 Anubis). The PASS would have won at 1.70. This does not make the PASS incorrect by itself, but it suggests the post-veto reassessment may have overweighted map ownership/pick order and underweighted UPGRADE's underlying strength on Ancient and Anubis. Review after the 10-bet sample whether veto adjustments should modify probabilities less aggressively unless supported by stronger map-level evidence.
