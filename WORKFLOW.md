@@ -9,9 +9,12 @@ Always read:
 1. `README.md`
 2. `RULES.md`
 3. `TRACKER.md`
-4. all existing files in `/bets`
+4. `RESEARCH.md`
+5. all existing files in `/bets`
 
 The repository is the source of truth for the experiment.
+
+`RESEARCH.md` contains external models, research ideas, and possible future improvements. Treat it as additional context and independent evidence only. It does **not** modify the current experiment rules or create new selection criteria during the initial 10-bet sample.
 
 Do not change the methodology because of a single result.
 
@@ -51,6 +54,8 @@ Never invent missing data.
 
 If important information cannot be verified, explicitly treat it as uncertainty.
 
+Public models or tools documented in `RESEARCH.md` may be consulted as supplementary evidence when relevant. Their output must not be treated as ground truth and must not replace independent matchup analysis.
+
 ### Step 2 — Candidate selection
 
 Select only matches where there is a plausible reason the market could be mispriced.
@@ -75,6 +80,26 @@ Only request markets relevant to the thesis.
 
 ---
 
+## Pre-match re-check
+
+For relevant matches, perform a final re-check approximately **20–30 minutes before scheduled start** when practical.
+
+The purpose is to catch information that may not have been available during the morning scan.
+
+Re-check where possible:
+
+- roster / stand-in changes
+- confirmed or newly available veto information
+- map-related information
+- significant public market movement
+- other material information affecting the original thesis
+
+If confirmed veto becomes available, reassess the original matchup thesis and probability estimate before making or confirming a decision.
+
+Do not create a candidate merely because odds moved.
+
+---
+
 ## After receiving STS odds
 
 For each candidate calculate or estimate:
@@ -87,6 +112,8 @@ For each candidate calculate or estimate:
 - main risks / uncertainty
 
 Compare the independent analysis with the actual STS price.
+
+Use public bookmaker prices, when reliably available, as market context. They are not a substitute for the actual STS price used for the decision.
 
 Then make one decision:
 
@@ -157,6 +184,8 @@ A live market can only become a new candidate if it independently satisfies the 
 
 Live score or momentum alone is not sufficient evidence of value.
 
+Research into dedicated live models belongs in `RESEARCH.md` and does not change the current live-betting rules during the initial experiment.
+
 ---
 
 ## After the match
@@ -219,6 +248,7 @@ Review:
 - repeated analytical errors
 - good results produced by weak reasoning
 - bad results produced by sound reasoning
+- research ideas collected in `RESEARCH.md`
 
 Only after the complete review should changes to the methodology be proposed.
 
