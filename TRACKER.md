@@ -1,9 +1,9 @@
 # EDGE v2 — 10 Bet Tracker
 
-Status: 4 / 10 completed, #5 ACTIVE
+Status: 6 / 10 completed
 
-Current record: `2W – 2L`
-Realized P/L: `-2.46 PLN`
+Current record: `3W – 3L`
+Realized P/L: `-2.24 PLN`
 
 | # | Date | Match | Market | STS Odds | Our p | Fair Odds | Confidence | Result | Closing Odds | CLV |
 |---|---|---|---|---:|---:|---:|---:|---|---:|---:|
@@ -11,8 +11,8 @@ Realized P/L: `-2.46 PLN`
 | 2 | 2026-09-23 | Leo vs Spirit Academy | Leo M2 Nuke | 1.95 | 63–69% | 1.45–1.59 | MEDIUM | WIN (+1.42 PLN) | N/R | N/A |
 | 3 | 2026-09-25 | HEROIC vs fnatic | Over 2.5 maps | 1.95 | N/R** | N/R** | MEDIUM | WIN (+1.49 PLN) | N/R | N/A |
 | 4 | 2026-09-25 | 100 Thieves vs BBL | Over 2.5 maps | 1.95 | 56–59% | 1.69–1.79 | MEDIUM | LOSS (-2.37 PLN) | N/R | N/A |
-| 5 | 2026-09-25 | Sashi vs 9INE | Over 2.5 maps | 1.90 | N/R*** | N/R*** | MEDIUM | ACTIVE | N/R | N/A |
-| 6 | | | | | | | | | | |
+| 5 | 2026-09-25 | Sashi vs 9INE | Over 2.5 maps | 1.90 | N/R*** | N/R*** | MEDIUM | LOSS (-2.00 PLN) | N/R | N/A |
+| 6 | 2026-09-26 | SINNERS vs Ninjas in Pyjamas | Over 2.5 maps | 1.93 | 57–61% | 1.64–1.75 | MEDIUM | WIN (+2.22 PLN) | N/R | N/A |
 | 7 | | | | | | | | | | |
 | 8 | | | | | | | | | | |
 | 9 | | | | | | | | | | |
@@ -22,4 +22,4 @@ Realized P/L: `-2.46 PLN`
 
 `**` For bet #3, no defensible numerical probability/fair-odds estimate was explicitly frozen before the bet. It remains N/R rather than being reconstructed after the result.
 
-`***` For bet #5, no numerical probability/fair-odds estimate was explicitly frozen in the recorded pre-match notes before entry. It must remain N/R rather than being reconstructed while the match is live or after the result.
+`***` For bet #5, no numerical probability/fair-odds estimate was explicitly frozen in the recorded pre-match notes before entry. It remains N/R rather than being reconstructed after the result.
