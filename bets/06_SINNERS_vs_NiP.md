@@ -132,20 +132,16 @@ What was good about the process:
 
 No methodology rule is changed because this bet won.
 
-## Experiment state
+## Experiment state after #6
 
-Confirmed bet number:
+Completed bets:
 
-`#6/10`
+`6 / 10`
 
-Result:
+Record:
 
-`WIN`
+`3W – 3L`
 
-Profit from this bet:
+Realized P/L:
 
-`+2.22 PLN`
-
-Important:
-
-The current repository tracker still has #5 Sashi vs 9INE marked ACTIVE. Therefore the total experiment record and realized P/L should only be recomputed once #5 is settled and updated.
+`-2.24 PLN`
