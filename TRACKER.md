@@ -1,9 +1,9 @@
 # EDGE v2 — 10 Bet Tracker
 
-Status: 6 / 10 completed
+Status: 7 / 10 completed
 
-Current record: `3W – 3L`
-Realized P/L: `-2.24 PLN`
+Current record: `3W – 4L`
+Realized P/L: `-4.24 PLN`
 
 | # | Date | Match | Market | STS Odds | Our p | Fair Odds | Confidence | Result | Closing Odds | CLV |
 |---|---|---|---|---:|---:|---:|---:|---|---:|---:|
@@ -13,7 +13,7 @@ Realized P/L: `-2.24 PLN`
 | 4 | 2026-09-25 | 100 Thieves vs BBL | Over 2.5 maps | 1.95 | 56–59% | 1.69–1.79 | MEDIUM | LOSS (-2.37 PLN) | N/R | N/A |
 | 5 | 2026-09-25 | Sashi vs 9INE | Over 2.5 maps | 1.90 | N/R*** | N/R*** | MEDIUM | LOSS (-2.00 PLN) | N/R | N/A |
 | 6 | 2026-09-26 | SINNERS vs Ninjas in Pyjamas | Over 2.5 maps | 1.93 | 57–61% | 1.64–1.75 | MEDIUM | WIN (+2.22 PLN) | N/R | N/A |
-| 7 | | | | | | | | | | |
+| 7 | 2026-09-27 | Eternal Fire vs K27 | Over 2.5 maps | 1.90 | 57–60% | 1.67–1.75 | MEDIUM | LOSS (-2.00 PLN) | N/R | N/A |
 | 8 | | | | | | | | | | |
 | 9 | | | | | | | | | | |
 | 10 | | | | | | | | | | |
